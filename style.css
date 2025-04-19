@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+header,
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-size: 14px;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+.title {
+  text-align: center;
+  margin: 2rem 0 1rem;
+  font-size: 2rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.subtitle {
+  text-align: center;
+  font-size: 0.9rem;
+  color: gray;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.section-title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.testimonial {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.testimonial .author {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+footer {
+  border-top: 1px solid #ccc;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
